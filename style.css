@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+}
+
+.container{
+    width: 50%;
+    height:auto;
+    margin: auto;
+    background-color: antiquewhite;
+
+}
+
+.display{
+    width: auto;
+    height:20vh;
+    background-color: aqua;
+    text-align:right;
+    padding-top:20px;
+    padding-right: 45px;
+    font-size:1.75rem;
+}
+.output{
+    padding-bottom: 20px;
+}
+
+.keyboard{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.key{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.btn{
+    padding: 50px;
+    cursor: pointer;
+    border: 1px solid;
+    font-size:1.75rem;
+}
